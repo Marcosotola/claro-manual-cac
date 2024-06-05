@@ -5,24 +5,24 @@ export const Nav = () => {
         <>
             <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand text-danger" href="/">Claro</a>
+                    <a class="navbar-brand text-danger me-5 ms-5" href="/">Claro</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="navbar-collapse collapse" id="navbarColor01">
-                        <ul class="navbar-nav me-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="/">Home
+                        <ul class="navbar-nav me-5">
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="/">Home
                                 </a>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item me-3 dropdown">
                                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false">Medios de Acceso</a>
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item mt-2" href="/AperturaCierre">Apertura y Cierre</a>
                                     <a class="dropdown-item mt-2 mb-2" href="/Cubierta">Cubierta</a>
                                 </div>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item me-3 dropdown">
                                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false">Instalaciones del local</a>
                                 <div class="dropdown-menu">
                                     <p class=".text-light-emphasis">Energía</p>
@@ -36,7 +36,7 @@ export const Nav = () => {
                                     <a class="dropdown-item mt-2 mb-2" href="/Operatividad">Operatividad</a>
                                 </div>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item me-3 dropdown">
                                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false">Seguridad</a>
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item mt-2" href="/Incendio">Incendio</a>
@@ -44,7 +44,7 @@ export const Nav = () => {
                                     <a class="dropdown-item mt-2 mb-2" href="/Salidas">Salidas</a>
                                 </div>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item me-3 dropdown">
                                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false">Contingencia</a>
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item mt-2" href="/Energia">Energía Eléctrica</a>
@@ -53,8 +53,8 @@ export const Nav = () => {
                                     <a class="dropdown-item mt-2 mb-2" href="/Persianas">Persianas Perimetrales</a>
                                 </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="/Recomendaciones">Recomendaciones
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="/Recomendaciones">Recomendaciones
                                 </a>
                             </li>
                         </ul>
