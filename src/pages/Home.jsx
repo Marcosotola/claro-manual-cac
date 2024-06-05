@@ -65,29 +65,31 @@ export const Home = () => {
               </div>
             </div>
           </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                Contingencia
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
-              <div class="accordion-body">
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+              Contingencia
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+            <div class="accordion-body">
               <div class="d-grid gap-2">
-              <h5 class="text-center text-warning">Que hago si falla</h5>
+                <h5 class="text-center text-warning">Que hago si falla</h5>
                 <button class="btn btn-m btn-primary" type="button"><a href="/Energia" class="text-decoration-none text-light">Energía Eléctrica</a></button>
                 <button class="btn btn-m btn-primary" type="button"> <a href="/Agua" class="text-decoration-none text-light">Agua Potable</a></button>
                 <button class="btn btn-m btn-primary" type="button"> <a href="/Aire" class="text-decoration-none text-light">Aire Acondicionado</a></button>
                 <button class="btn btn-m btn-primary" type="button"> <a href="/Persianas" class="text-decoration-none text-light">Persianas Perimetreales</a></button>
               </div>
-              </div>
             </div>
           </div>
         </div>
-
-
-
+        <a href="/Recomendaciones" class="text-decoration-none">
+          <div class="accordion-item p-3">
+            Recomendaciones
+          </div>
+        </a>
+      </div>
 
     </>
   )
